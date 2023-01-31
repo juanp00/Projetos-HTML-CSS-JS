@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKFWkuBnQK12H9v1aBSkPGWZ9u-2zk6zA" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="js/index.js" type="module" defer></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="sectionTitle">
+        <h1>Localização em tempo real</h1>
+        <hr>
+        <p>Utilizando a API do Google, desenvolvi esse projeto onde você consegue acompanhar a sua localização em tempo real.</p>
+        <div>
+            <button class="btnControlGeo" id="stopMonitoring">Desabilitar localização</button>
+            <button class="btnControlGeo" id="btnInitGeo">Ativar localização</button>
+        </div>
+    </header>
+
+    <div id="map"></div>
+
+    <footer>
+        <p>Desenvolvido por Juan Pablo | Ver <a href="https://github.com/juanp00/" target="_blank">GitHub</a> </p>
+    </footer>
+</body>
+</html>
